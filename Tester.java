@@ -14,7 +14,7 @@ public class Tester {
 	{
 		File expected = new File("BasicFilterYearExpected.txt");
 		File actual = new File("BasicFilterYear.txt");
-		String inputString = "GazillionSongs.txt\nfilter:year:1990\n" + actual.getName() + "\n";
+		String inputString = "aGazillionSongs.txt\nfilter:year:1990\n" + actual.getName() + "\n";
 		ByteArrayInputStream input = new ByteArrayInputStream(inputString.getBytes());
 		System.setIn(input);
 		
@@ -34,7 +34,7 @@ public class Tester {
 	{
 		File expected = new File("BasicFilterYearRangeExpected.txt");
 		File actual = new File("BasicFilterYearRange.txt");
-		String inputString = "GazillionSongs.txt\nfilter:year:1990-1999\n" + actual.getName() + "\n";
+		String inputString = "aGazillionSongs.txt\nfilter:year:1990-1999\n" + actual.getName() + "\n";
 		ByteArrayInputStream input = new ByteArrayInputStream(inputString.getBytes());
 		System.setIn(input);
 		
@@ -54,7 +54,7 @@ public class Tester {
 	{
 		File expected = new File("BasicFilterRankExpected.txt");
 		File actual = new File("BasicFilterRank.txt");
-		String inputString = "GazillionSongs.txt\nfilter:rank:1\n" + actual.getName() + "\n";
+		String inputString = "aGazillionSongs.txt\nfilter:rank:1\n" + actual.getName() + "\n";
 		ByteArrayInputStream input = new ByteArrayInputStream(inputString.getBytes());
 		System.setIn(input);
 		
@@ -74,7 +74,7 @@ public class Tester {
 	{
 		File expected = new File("BasicFilterRankRangeExpected.txt");
 		File actual = new File("BasicFilterRankRange.txt");
-		String inputString = "GazillionSongs.txt\nfilter:rank:1-10\n" + actual.getName() + "\n";
+		String inputString = "aGazillionSongs.txt\nfilter:rank:1-10\n" + actual.getName() + "\n";
 		ByteArrayInputStream input = new ByteArrayInputStream(inputString.getBytes());
 		System.setIn(input);
 		
@@ -94,7 +94,7 @@ public class Tester {
 	{
 		File expected = new File("BasicFilterArtistExpected.txt");
 		File actual = new File("BasicFilterArtist.txt");
-		String inputString = "GazillionSongs.txt\nfilter:artist:frank\n" + actual.getName() + "\n";
+		String inputString = "aGazillionSongs.txt\nfilter:artist:frank\n" + actual.getName() + "\n";
 		ByteArrayInputStream input = new ByteArrayInputStream(inputString.getBytes());
 		System.setIn(input);
 		
@@ -114,7 +114,7 @@ public class Tester {
 	{
 		File expected = new File("BasicFilterTitleExpected.txt");
 		File actual = new File("BasicFilterTitle.txt");
-		String inputString = "GazillionSongs.txt\nfilter:title:one\n" + actual.getName() + "\n";
+		String inputString = "aGazillionSongs.txt\nfilter:title:one\n" + actual.getName() + "\n";
 		ByteArrayInputStream input = new ByteArrayInputStream(inputString.getBytes());
 		System.setIn(input);
 		
@@ -545,7 +545,7 @@ public class Tester {
 	{
 		File expected = new File("60sExpected.txt");
 		File sixties = new File("60s.txt");
-		String inputString = "GazillionSongs.txt\nfilter:year:1960-1969\n" + sixties.getName() + "\n";
+		String inputString = "aGazillionSongs.txt\nfilter:year:1960-1969\n" + sixties.getName() + "\n";
 		ByteArrayInputStream input = new ByteArrayInputStream(inputString.getBytes());
 		System.setIn(input);
 		
