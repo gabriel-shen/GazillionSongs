@@ -1,6 +1,6 @@
 # Config File for Travis CI tests
 language: java
-
-language: java
-
-sudo: false
+jdk:
+  - openjdk7
+  - oraclejdk7
+  - oraclejdk8
