@@ -1,14 +1,1 @@
 language: java
-<<<<<<< HEAD
-jdk:
-  - oraclejdk8
-  - openjdk7
-=======
-
-jdk:
-  - oraclejdk8
-  - openjdk7
-  
-sudo: false
-script: mvn clean verify
->>>>>>> 32e37b259259c27cea8454eb8752b2a48c9472cb
