@@ -3,7 +3,6 @@
     simple example build file
   </description>
   <!-- set global properties for this build -->
-  <property name="test" location="Tester.java"/>
   <property name="src" location="src"/>
   <property name="build" location="build"/>
   <property name="dist" location="dist"/>
@@ -18,7 +17,7 @@
   <target name="compile" depends="init"
         description="compile the source">
     <!-- Compile the java code from ${src} into ${build} -->
-    <javac srcdir="${src}" destdir="${build}"/>
+    <javac srcdir="Tester.java" destdir="."/>
   </target>
 
   <target name="dist" depends="compile"
@@ -36,4 +35,9 @@
     <delete dir="${build}"/>
     <delete dir="${dist}"/>
   </target>
+  
+  <target name="test"
+           description="run the test">
+    <!-- Define where the test is to run it -->
+    <javac src="Tester.java" destdir="."/>
 </project>
