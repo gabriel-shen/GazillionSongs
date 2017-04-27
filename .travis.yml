@@ -1,1 +1,11 @@
-language: java
+# Config File for Travis CI tests
+language: node_js
+
+node_js:
+  - "6"
+
+install:
+  - npm install
+
+script:
+  - "tests/runServer.sh"
