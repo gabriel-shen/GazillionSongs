@@ -39,6 +39,7 @@
   <target name="test"
            description="run the test">
     <!-- Define where the test is to run it -->
-    <javac src="Tester.java" destdir="."/>
+  
   </target>
+  
 </project>
